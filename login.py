@@ -11,7 +11,7 @@ print('Username: ', usr)
 pwd = getpass.getpass(prompt = 'Enter your password: ', stream = None)
 
 def get_token():
-    url = 'https://x.x.x.x/api/aaaLogin.json'
+    url = 'https://10.10.20.14/api/aaaLogin.json'
 
     payload = {
         'aaaUser': {
